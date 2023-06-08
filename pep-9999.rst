@@ -1,0 +1,241 @@
+PEP: 9999
+Title: Python Packaging Governance
+Author: Shamika Mohanan
+Sponsor:
+Status: Draft
+Type: Process
+Topic: Governance
+Content-Type: text/x-rst
+Created: 
+
+Abstract
+========
+
+This PEP describes the Python Packaging Governance for all tools 
+that are included as part of PyPA. The Packaging Council will govern 
+all PyPA tools and the community that supports these tools.
+
+Specification
+=============
+
+The Packaging council
+---------------------
+
+Composition
+~~~~~~~~~~~
+
+The packaging council will consist of 5 members.
+
+Mandate
+~~~~~~~
+
+The packaging council will-
+
+* Set vision and strategy for Python Packaging and PyPA tools.
+  This strategy may be refreshed with every new council.
+* Maintain and improve the quality of all PyPA tools
+* Ensure contribution is easy and accessible
+* Ensure there is support for new contributors in the form of
+  mentorship
+* Represent PyPA tools when working with non-PyPA tools, PSF, 
+  Python steering council and third-party entities such as Linux/Debian
+* Engage with contributors and other stakeholders before making
+  any decision 
+* Arbitrate on any packaging related issue brought to the council.
+  This should be done as the final resort.
+* Improve diversity of the Packaging community. The council should
+  work with the PSF to introduce programmes aimed at improving
+  diversity of contributors.
+
+Powers
+~~~~~~
+
+Packaging Governance
+++++++++++++++++++++
+
+* Accept or reject PEPs
+* Delegate parts of their authority to other subcommittees or processes
+* Assume any responsibility delegated by the Python Steering Council
+* Remove someone from the packaging council
+
+Packaging Assets
+++++++++++++++++
+
+* Maintain advisory role over any packaging assets. This includes
+  maintaining pre-built distribution of Python, Docker containers
+  and any form of builds in the future
+* Authority over `packaging.python.org <https://packaging.python.org/en/latest/>`_
+* Maintain advisory role for any issue related to packaging docs
+* Authority over the specifications for the maintenance and
+  improvement of installers, build backends, Warehouse,
+  and other PyPA software
+
+Stakeholder Management
+++++++++++++++++++++++
+
+* Act as a liaison with any Python or non Python technical group.
+  For example, any group representing supply chain security. 
+* Act as a liaison with the PSF and the Packaging Working Group to
+  obtain funding and any other areas of shared interest
+* Act as liaison with the Python Steering Council
+
+Packaging ecosystem and community
++++++++++++++++++++++++++++++++++
+
+* Identify ways to improve interoperability with non-PyPA packaging tools
+  and other packaging managers
+* Improve packaging UX
+* Own, maintain, and define the standard toolchain
+* Make recommendations on standard tools
+
+Scope: It is expected that the Packaging council will consider 
+the Python Packaging ecosystem holistically and improve all 
+aspects of Python Packaging rather than just one project. This 
+includes any tool and workflow related to PyPA and PyPI. The council 
+should work towards improving user experience of all packaging tools 
+under its purview and this might include deprecating certain tools 
+and developing new tools depending on requirements. While it does not 
+have any authority over non-PyPA tools, it is expected that the council 
+makes decisions that benefit the entire Python Packaging ecosystem. This 
+scope includes all aspects of packaging and distribution.
+
+The packaging council cannot modify this PEP or the PyPA contributor body, 
+except via the mechanisms specified in this PEP.
+
+To use its powers, the council votes. Every council member must either vote or 
+explicitly abstain. Members with conflicts of interest on a particular 
+vote must abstain. Passing requires a strict majority of non-abstaining council members.
+Whenever possible, the council’s deliberations and votes shall be held in public.
+
+Electing the council
+~~~~~~~~~~~~~~~~~~~~
+
+Packaging council elections will be held in two phases
+
+* Phase 1: Candidates either self-nominate or are nominated by the voter body.
+* Phase 2: The voting body can vote for one more candidate. 
+
+Each phase will last two weeks. The election for all subsequent councils 
+will start in the 12th month since the previous council election.
+
+Term
+~~~~
+
+A new council will be elected once every year. Each council’s term runs from when 
+their election results are finalized until the next council’s term starts. 
+There are no term limits. Generally, each council member’s term should last 12 months 
+with one exception described below.
+
+Vacancies
+~~~~~~~~~
+
+Council members may resign their position at any time. 
+There could also be situations that council members have 
+been removed from the council via a vote of no confidence. 
+Whenever there is a vacancy during the regular council term, 
+the council may vote to appoint a replacement to serve out the 
+rest of the term. In such a situation, this council seat will be up 
+for election at the next council election as long as the replacement 
+has served 12 weeks or longer in the council. Therefore, the longest 
+term for any council member will be 15 months before that seat is up for election.
+
+If a council member drops out of touch and cannot be contacted for a month 
+or longer, without prior notice, then the rest of the council may vote to replace them.
+
+
+Conflicts of interest
+~~~~~~~~~~~~~~~~~~~~~
+
+In order to avoid any appearance of conflict of interest, at most 
+2 members of the council can work for any single employer.
+In a council election, if 3 of the top 5 vote-getters work for 
+the same employer, then whichever of them ranked lowest is 
+disqualified and the 6th-ranking candidate moves up into 5th place; 
+this is repeated until a valid council is formed.
+
+During a council term, if changing circumstances cause this rule to 
+be broken (for instance, due to a council member changing employment), 
+then one or more council members must resign to remedy the issue, and 
+the resulting vacancies can then be filled as described above.
+
+Ejecting PyPA contributor body member
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The process to eject a member is described in `PEP 609 <https://peps.python.org/pep-0609/>`_. 
+
+The Packaging Council may initiate a vote to eject a 
+member from the PyPA contributor body.
+
+
+Vote of no confidence
+~~~~~~~~~~~~~~~~~~~~~
+
+Any PyPA contributor body member can publicly call 
+for one or more Packaging Council members to be removed 
+from the Council via a vote of no confidence. 
+
+The vote of no confidence should be called on a project communication 
+channel and should be seconded by another contributor body member.
+The vote lasts for two weeks. PyPA contributor body members can vote 
+for or against the removal. If at least two thirds of voters express 
+a lack of confidence, then the vote succeeds.
+
+If the vote of no confidence is for a single member, the council member 
+is removed from the council and the vacancy is filled as described above. 
+If the vote is for the entire council, the council is dissolved and 
+a new election is held.
+
+PyPA contributor body
+---------------------
+
+Role
+~~~~
+
+Similar to the Python core team, the PyPA contributor body is a 
+group of volunteers who maintain and support PyPA tools.They have 
+authority over the Python Packaging infrastructure, the PyPA GitHub organization 
+and repositories, the bug tracker, the mailing lists, IRC channels, etc.
+
+Prerogatives
+~~~~~~~~~~~~
+
+PyPA contributor body members may participate in formal votes, 
+typically to nominate new contributor body members and to elect the 
+Packaging council.
+
+Membership
+~~~~~~~~~~
+
+The process to become a member is described in `PEP 609 <https://peps.python.org/pep-0609/>`_. 
+
+As Packaging contribution requires support and time, it is the 
+responsibility of the Packaging Council to ensure there are 
+sufficient support mechanisms in the form of (but not limited to) mentorship, 
+internship and fellowship to support and guide new PyPA contributors. 
+The Packaging Council may work with the PSF to establish such programmes.
+
+The list of active and inactive members is maintained by the _____. It is the 
+responsibility of each member to declare themselves as inactive so that new 
+members can be added to the PyPA contributor body. This status can be changed 
+to active if required. The status of a member does not affect their voting rights.
+The initial active PyPA contributor body members will consist of everyone who 
+self-attests that they made some contribution to any PyPA tool (however minor) 
+and this list will be maintained ________here_______. Once this list has been 
+finalized, the status of any member will change to inactive if they requested 
+the change or if they have not participated in two 
+consecutive Packaging council elections. 
+
+
+Acknowledgements
+================
+
+This PEP is based on `PEP 13 <https://peps.python.org/pep-0013/>`_ which in turn is based on a Django governance 
+document authored by Aymeric Augustin.
+
+
+
+
+
+
+
+

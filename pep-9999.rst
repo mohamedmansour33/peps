@@ -59,15 +59,15 @@ The packaging council will-
 
 * Set vision and strategy for Python Packaging and PyPA tools (defined below)
 * Support, encourage and facilitate the maintenance and improvement 
- of the quality of all PyPA tools
+  of the quality of all PyPA tools
 * Represent PyPA tools as a group when working with non-PyPA tools, 
- PSF, Python Steering Council and third-party entities such as operating 
- system package managers. The council will start discussions and engage 
- with stakeholders and the Packaging community and represent the PyPA interests.
+  PSF, Python Steering Council and third-party entities such as operating 
+  system package managers. The council will start discussions and engage 
+  with stakeholders and the Packaging community and represent the PyPA interests.
 * Arbitrate on any packaging related issue brought to the council. This 
- should be done as the final resort.
+  should be done as the final resort.
 * Improve diversity of the Packaging community. The council should work 
- with the PSF to introduce programmes aimed at improving diversity of contributors.
+  with the PSF to introduce programmes aimed at improving diversity of contributors.
 
 Powers
 ~~~~~~
@@ -89,10 +89,10 @@ Stakeholder Management
 ++++++++++++++++++++++
 
 * Act as a liaison with any packaging-related Python or non Python 
- technical group when specific tool representation isn't appropriate. 
- For example, any group representing supply chain security. 
+  technical group when specific tool representation isn't appropriate. 
+  For example, any group representing supply chain security. 
 * Act as a liaison with the PSF and the Packaging Working Group to obtain 
- funding and any other areas of shared interest
+  funding and any other areas of shared interest
 * Act as liaison with the Python Steering Council
 
 Packaging ecosystem and community
@@ -134,7 +134,7 @@ be called affiliate project voters.
 
 * Any voter nomination has to be seconded by another PyPA committer
 * External projects nominated by PyPA committers will get to appoint a representative 
-for each ballot
+  for each ballot
 
 The initial seed of voters will include all committers for the existing non-archived 
 public projects under the `pypa` organisation of GitHub.
@@ -154,15 +154,16 @@ Packaging Voting Body membership list and the PyPA-voters mailing list will
 be transferred to the PyPA.
 
 PyPA elections will be held in three phases
+
 * Phase 1: Packaging voting body members nominate affiliate project voters. 
-Affiliate project voters are added to the list of eligible voters.
+  Affiliate project voters are added to the list of eligible voters.
 * Phase 2: Candidates advertise their interest in serving. Candidates must be 
-nominated by a PyPA voting body member. Self-nominations are allowed. 
-Candidates need not be a PyPA committer.
+  nominated by a PyPA voting body member. Self-nominations are allowed. 
+  Candidates need not be a PyPA committer.
 * Phase 3: Each PyPA voting body member can vote for zero or more of the candidates. 
-Voting is performed anonymously. Candidates are ranked by the total number of votes 
-they receive. If a tie occurs, it may be resolved by mutual agreement among the candidates, 
-or else the winner will be chosen at random.
+  Voting is performed anonymously. Candidates are ranked by the total number of votes 
+  they receive. If a tie occurs, it may be resolved by mutual agreement among the candidates, 
+  or else the winner will be chosen at random.
 
 Each phase lasts one to two weeks, at the outgoing council’s discretion. For the 
 initial election, all three phases will last two weeks. The election for all 

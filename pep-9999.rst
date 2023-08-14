@@ -59,15 +59,15 @@ The packaging council will-
 
 * Set vision and strategy for Python Packaging and PyPA tools (defined below)
 * Support, encourage and facilitate the maintenance and improvement 
-of the quality of all PyPA tools
+ of the quality of all PyPA tools
 * Represent PyPA tools as a group when working with non-PyPA tools, 
-PSF, Python Steering Council and third-party entities such as operating 
-system package managers. The council will start discussions and engage 
-with stakeholders and the Packaging community and represent the PyPA interests.
+ PSF, Python Steering Council and third-party entities such as operating 
+ system package managers. The council will start discussions and engage 
+ with stakeholders and the Packaging community and represent the PyPA interests.
 * Arbitrate on any packaging related issue brought to the council. This 
-should be done as the final resort.
+ should be done as the final resort.
 * Improve diversity of the Packaging community. The council should work 
-with the PSF to introduce programmes aimed at improving diversity of contributors.
+ with the PSF to introduce programmes aimed at improving diversity of contributors.
 
 Powers
 ~~~~~~
@@ -89,20 +89,20 @@ Stakeholder Management
 ++++++++++++++++++++++
 
 * Act as a liaison with any packaging-related Python or non Python 
-technical group when specific tool representation isn't appropriate. 
-For example, any group representing supply chain security. 
+ technical group when specific tool representation isn't appropriate. 
+ For example, any group representing supply chain security. 
 * Act as a liaison with the PSF and the Packaging Working Group to obtain 
-funding and any other areas of shared interest
+ funding and any other areas of shared interest
 * Act as liaison with the Python Steering Council
 
 Packaging ecosystem and community
 +++++++++++++++++++++++++++++++++
 
 * Maintain ownership of PyPA tools. The council will not interfere with a project's day-to-day 
-operations but rather govern the community that supports these tools. The PyPA can require 
-projects to implement accepted PEP standards or eject maintainers from the project. 
+ operations but rather govern the community that supports these tools. The PyPA can require 
+ projects to implement accepted PEP standards or eject maintainers from the project. 
 * Recommend projects for adoption into PyPA by vote. External projects can self-nominate to 
-be included under the PyPA umbrella.
+ be included under the PyPA umbrella.
 * Expel PyPA project/individual
 
 Scope: It is expected that the Packaging council will consider the Python Packaging 
@@ -121,7 +121,7 @@ vote or explicitly abstain. Members with conflicts of interest on a particular v
 must abstain. Passing requires a strict majority of non-abstaining council members.
 
 Elections
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~
 
 Packaging Voting Body: The Packaging Voting Body (PVB) includes the following:
 
@@ -131,6 +131,7 @@ Packaging Voting Body: The Packaging Voting Body (PVB) includes the following:
 PyPA committers can nominate either non-PyPA projects or individual contributors 
 who do not contribute to a PyPA project to be added to the PVB. These voters will 
 be called affiliate project voters.
+
 * Any voter nomination has to be seconded by another PyPA committer
 * External projects nominated by PyPA committers will get to appoint a representative 
 for each ballot

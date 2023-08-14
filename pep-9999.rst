@@ -99,10 +99,10 @@ Packaging ecosystem and community
 +++++++++++++++++++++++++++++++++
 
 * Maintain ownership of PyPA tools. The council will not interfere with a project's day-to-day 
- operations but rather govern the community that supports these tools. The PyPA can require 
- projects to implement accepted PEP standards or eject maintainers from the project. 
+  operations but rather govern the community that supports these tools. The PyPA can require 
+  projects to implement accepted PEP standards or eject maintainers from the project. 
 * Recommend projects for adoption into PyPA by vote. External projects can self-nominate to 
- be included under the PyPA umbrella.
+  be included under the PyPA umbrella.
 * Expel PyPA project/individual
 
 Scope: It is expected that the Packaging council will consider the Python Packaging 

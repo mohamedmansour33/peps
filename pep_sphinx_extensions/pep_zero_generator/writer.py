@@ -94,7 +94,7 @@ class PEPZeroWriter:
         self.emit_text(".. list-table::")
         self.emit_text("   :header-rows: 1")
         self.emit_text("   :widths: auto")
-        self.emit_text("   :class: pep-zero-table")
+        self.emit_text("   :class: pep-zero-table sortable asc")
         self.emit_newline()
         self.emit_text("   * - ")
         self.emit_text("     - PEP")

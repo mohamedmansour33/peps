@@ -466,3 +466,31 @@ dl.footnote > dd {
   color: inherit;
   margin-top: 0;
 }
+
+/* Sortable table headers */
+.sortable thead th:not(.no-sort) {
+  cursor: pointer;
+}
+.sortable thead th:not(.no-sort)::after {
+  margin-left: 3px;
+  content: "▸";
+}
+.sortable thead th:not(.no-sort).dir-d::after {
+  content: "▾";
+}
+.sortable thead th:not(.no-sort).dir-u::after {
+  content: "▴";
+}
+.sortable thead th:not(.no-sort).indicator-left::after {
+  content: "";
+}
+.sortable thead th:not(.no-sort).indicator-left::before {
+  margin-right: 3px;
+  content: "▸";
+}
+.sortable thead th:not(.no-sort).indicator-left.dir-d::before {
+  content: "▾";
+}
+.sortable thead th:not(.no-sort).indicator-left.dir-u::before {
+  content: "▴";
+}

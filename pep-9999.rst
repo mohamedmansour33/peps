@@ -10,12 +10,14 @@ Created:
 
 Abstract
 ========
-
-This PEP describes the Python Packaging Governance for all tools 
-that are included as part of the PyPA. The Packaging Council will 
-govern all PyPA tools, represent the community that supports these 
-tools and act as a representative of PyPA tools. From here on, this 
-Packaging council will be called the Python Packaging Authority (PyPA).
+This PEP describes the Python Packaging Governance for 
+all tools that are included as part of the PyPA. The Packaging 
+Council will govern all PyPA tools, represent the community 
+that supports these tools and act as a representative of PyPA 
+tools. From here on, this Packaging council will be called the 
+Python Packaging Authority (PyPA). This PEP will supersede 
+[PEP 609](https://peps.python.org/pep-0609/) 
+and will cover all aspects of Python Packaging Governance.
 
 Rationale
 =========
@@ -26,12 +28,27 @@ formalized the governance of tools included under the PyPA
 umbrella, this governance does not extend to setting long-term goals 
 for PyPA tools. In order to ensure PyPA tools remain relevant in the 
 future and cater to user requirements, it is important to set a vision 
-and strategy for Python Packaging and PyPA tools.
+and strategy for Python Packaging and PyPA tools. It is hoped that 
+the council will focus on the Packaging ecosystem, define the 
+vision and work with the community to develop the strategy. 
+Attempts at defining the vision and strategy have failed so far.
 
 The main motivation for this PEP is to create a body with the necessary 
 powers to define the short-term and long-term goals for Python Packaging 
 and to support the community in setting the strategy to achieve the goals. This 
 governing body will represent PyPA tools when working with any other tool or group. 
+
+As such, the mission of the initial council will be-
+
+* Define the short-term and long-term vision and strategy for Python Packaging
+* Approve PEPs that support the Packaging strategy
+* Identify solutions to few (1-2) problems identified in the 
+[Python Packaging survey](https://drive.google.com/file/d/1U5d5SiXLVkzDpS0i1dJIA4Hu5Qg704T9/view) and marshall resources to implement the solutions
+
+We can expect the initial council to pick up a few problems 
+outside of this list that they feel is important to the community. 
+With each council, this mission will change depending on 
+pressing issues and how the vision and strategy has changed.
 
 The mandate and powers of the PyPA have been drawn up such that they 
 are not too restrictive. Certain issues such as authority over maintenance 
@@ -39,7 +56,8 @@ and improvement of installers, build backends, Warehouse, and other PyPA
 software are not in the scope of the initial council. This could be added 
 the future if all stakeholders agree to this change. It is expected that 
 the mandate of powers of the council will grow as long as it can show that 
-it is working in the best interest of the Packaging community.
+it is working in the best interest of the Packaging community. This 
+council will be accountable to the Python Steering Council.
 
 Specification
 =============
@@ -89,7 +107,7 @@ Stakeholder Management
 ++++++++++++++++++++++
 
 * Act as a liaison with any packaging-related Python or non Python 
-  technical group when specific tool representation isn't appropriate. 
+  technical group when specific tool representation is not appropriate. 
   For example, any group representing supply chain security. 
 * Act as a liaison with the PSF and the Packaging Working Group to obtain 
   funding and any other areas of shared interest
@@ -98,9 +116,12 @@ Stakeholder Management
 Packaging ecosystem and community
 +++++++++++++++++++++++++++++++++
 
-* Maintain ownership of PyPA tools. The council will not interfere with a project's day-to-day 
-  operations but rather govern the community that supports these tools. The PyPA can require 
-  projects to implement accepted PEP standards or eject maintainers from the project. 
+* Maintain ownership of PyPA tools. The council will not interfere 
+with a project's day-to-day operations but rather govern 
+the community that supports these tools. The PyPA can require
+projects to implement accepted PEP standards. In such a situation, 
+the PyPA should liaise with project maintainers and the PSF to 
+secure resources to implement accepted PEP standards when necessary.
 * Recommend projects for adoption into PyPA by vote. External projects can self-nominate to 
   be included under the PyPA umbrella.
 * Expel PyPA project/individual
@@ -295,7 +316,7 @@ Prerogatives
 ~~~~~~~~~~~~
 
 PyPA committers may participate in formal votes, 
-typically to nominate new committers, new PyPA projects, 
+typically to nominate new PyPA projects, 
 and to elect the Packaging council.
 
 Membership
@@ -327,13 +348,6 @@ may work with the PSF to establish such programmes.
 Acknowledgements
 ================
 
-This PEP is based on `PEP 13 <https://peps.python.org/pep-0013/>`_ which in turn is based on a Django governance 
+This PEP is based on `PEP 13 <https://peps.python.org/pep-0013/>`_ 
+which in turn is based on a Django governance 
 document authored by Aymeric Augustin.
-
-
-
-
-
-
-
-

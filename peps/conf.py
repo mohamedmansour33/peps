@@ -19,6 +19,7 @@ master_doc = "contents"
 
 # Add any Sphinx extension module names here, as strings.
 extensions = [
+    "notfound.extension",
     "pep_sphinx_extensions",
     "sphinx.ext.intersphinx",
     "sphinx.ext.githubpages",
@@ -75,3 +76,6 @@ html_baseurl = "https://peps.python.org"  # to create the CNAME file
 gettext_auto_build = False  # speed-ups
 
 templates_path = [os.fspath(_PSE_PATH / "pep_theme" / "templates")]  # Theme template relative paths from `confdir`
+
+# sphinx-notfound-page
+notfound_urls_prefix = "/"

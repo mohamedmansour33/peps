@@ -41,6 +41,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
 
+      - name: Create venv
+        run: make venv
+
       - name: Render PEPs
         run: make dirhtml JOBS=$(nproc)
 
